@@ -1,0 +1,48 @@
+@media screen and (max-width: 600px){
+    section.fullscreen{
+        text-align: center;
+        display: table;
+    }
+    .center{
+        display: table-cell;
+        vertical-align: middle;
+        position: relative;
+        top:0;
+        left:0;
+    }
+    #menu .center {
+        padding: 0 20px;
+    }
+    .bigtitle {
+        font-size: 42px;
+    }
+    #menu .button {
+        height: 60px;
+        width: 100%;
+        margin-left: 0;
+        left: 0;
+        border-radius: 12px;
+    }
+    #menu .button .caption{
+        margin-left: 0;
+        line-height: 60px;
+    }
+    .button.mediumtitle {
+        font-size: 24px;
+    }
+
+    #gamePanel #gameCanvas, #gamePanel #controller{
+        display: table-row !important;
+    }
+    #controller{
+        height: 60px;
+    }
+    #controller>div{
+        display: table;
+        width: 100%;
+        height: 100%;
+    }
+    #controller .button{
+        display: table-cell;
+    }
+}
